@@ -1,5 +1,5 @@
 {
-    "name": "saxum2010/simple-crud-generator",
+    "name": "saxum/simple-crud-generator",
     "license": "MIT",
     "description": "Laravel CRUD Generator",
     "authors": [
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Saxum2010\\SimpleCrudGenerator\\": "src/"
+            "Saxum\\SimpleCrudGenerator\\": "src/"
         },
         "classmap": [
             "tests"
@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Saxum2010\\SimpleCrudGenerator\\SimpleCrudGeneratorServiceProvider"
+                "Saxum\\SimpleCrudGenerator\\SimpleCrudGeneratorServiceProvider"
             ]
         }
     }
